@@ -1,15 +1,14 @@
 # Site settings
-title: Jekyll Doc Theme
-email: your-email@domain.com
+title: CyberStart Completion
+email: webadmin@cyberstart.dev
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  Completion steps for CyberStart's challenges
 lang: en-US
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://play.dyberstart.dev # the base hostname & protocol for your site
-git_address: https://github.com/PrinceBunBun981/CyberStart-Completion/
-git_edit_address: https://github.com/PrinceBunBun981/CyberStart-Completion/tree/main
+git_address: https://github.com/PrinceBunBun981/cyberstart.dev/
+git_edit_address: https://github.com/PrinceBunBun981/cyberstart.dev/
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
@@ -34,19 +33,19 @@ exclude:
   - vendor
 timezone: America/New_York
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
+#- scope:
+#    path: _posts
+#    type: posts
+#  values:
+#    layout: post
+#    sectionid: blog
 
 - scope:
-    path: _docs
-    type: docs
+    path: _challenge
+    type: challenge
   values:
     layout: docs
-    sectionid: docs
+    sectionid: challenge
     seo:
       type: "WebPage"
 
@@ -54,6 +53,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+#  posts:
+#    permalink: /blog/:year/:month/:day/:title/
+#    output: true
