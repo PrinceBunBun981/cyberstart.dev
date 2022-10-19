@@ -17,7 +17,7 @@ bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen read
 # Build settings
 markdown: kramdown
 highlighter: rouge
-bootwatch: solar
+bootwatch: slate
 # Plugins (previously gems:)
 plugins:
   - jekyll-feed
