@@ -41,7 +41,7 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _challenges
+    path: _challenge
     type: challenge
   values:
     layout: docs
