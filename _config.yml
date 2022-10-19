@@ -42,7 +42,7 @@ defaults:
 
 - scope:
     path: _challenge
-    type: challenge
+    type: docs
   values:
     layout: docs
     sectionid: challenge
