@@ -5,8 +5,8 @@ description: >
   Completion steps for CyberStart's challenges
 lang: en-US
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: https://play.dyberstart.dev # the base hostname & protocol for your site
+baseurl: "/challenge/" # the subpath of your site, e.g. /blog/
+url: https://play.cyberstart.dev # the base hostname & protocol for your site
 git_address: https://github.com/PrinceBunBun981/cyberstart.dev/
 git_edit_address: https://github.com/PrinceBunBun981/cyberstart.dev/
 
@@ -50,7 +50,7 @@ defaults:
       type: "WebPage"
 
 collections:
-  docs:
+  challenge:
     permalink: /:collection/:path/
     output: true
   posts:
