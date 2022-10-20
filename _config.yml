@@ -7,8 +7,8 @@ lang: en-US
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://play.cyberstart.dev # the base hostname & protocol for your site
-git_address: https://github.com/PrinceBunBun981/cyberstart.dev/
-git_edit_address: https://github.com/PrinceBunBun981/cyberstart.dev/
+git_address: https://github.com/PrinceBunBun981/cyberstart.dev
+git_edit_address: https://github.com/PrinceBunBun981/cyberstart.dev/blob/main
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
