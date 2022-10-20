@@ -12,7 +12,7 @@ git_edit_address: https://github.com/PrinceBunBun981/cyberstart.dev/
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: slate # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: darkly # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
