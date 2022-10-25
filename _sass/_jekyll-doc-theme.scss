@@ -61,3 +61,28 @@ html {
     top:10px
   }
   
+.l-container{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    max-width:1200px;
+    padding:0 12px
+}
+@media only screen and (min-width:960px){
+    .l-container{
+        flex-direction:row;
+        padding:0 28px
+    }
+}
+.l-container--small{
+    max-width:450px
+}
+.l-container--medium{
+    max-width:600px
+}
+.l-container--large{
+    max-width:750px
+}
+.l-container--col{
+    flex-direction:column
+}
