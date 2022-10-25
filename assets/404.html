@@ -4,36 +4,32 @@ permalink: 404.html
 ---
 
 <html>
+   <head>
       <style>
-         .l-container--col {
-            flex-direction: column;
-         }
-
          .l-container--medium {
-            max-width:600px
-         }
+            max-width: 600px
+        }
 
-         .l-container {
+        .l-container {
             display: flex;
             margin: 0 auto;
-         }
+        }
 
-         @media only screen and (min-width: 960px)
-         .l-container {
+        @media only screen and (min-width: 960px)
+        .l-container {
             flex-direction: row;
-         }
+        }
 
-         .error-container {
+        .error-container {
             background-color: #fff;
+            color: #222;
             border-radius: 12px;
             padding: 42px;
             text-align: center;
-         }
-
-         *, :after, :before {
-             box-sizing: inherit;
-         }
+        }
       </style>
+   </head>
+   <body>
       <div class="l-container l-container--col l-container--medium">
          <div class="error-container">
             <div class="error-container__title">
@@ -51,4 +47,5 @@ permalink: 404.html
             </div>
          </div>
       </div>
+   </body>
 </html>
