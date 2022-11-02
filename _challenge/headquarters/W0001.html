@@ -1,0 +1,63 @@
+---
+title: Secret Saesar
+permalink: /challenge/W0001/
+---
+
+<div markdown="span">
+    <h3>Briefing:</h3>
+    <p>
+        Our agents have been reviewing some documents they recovered from one of The Slootmaekers bike shops and they came across an order form for a set of six bikes which looks a little odd.
+        <br><br>
+        We think the six bike reference numbers might be encrypted with a **Caesar Cipher** (which is where the letters are shifted along by a certain **offset**, e.g. if the letter is **A** and the offset is **2** it will become C), and we've got some intel that one of them contains a code that starts with the word "**BAR**". We've worked out that the offset for each code is determined by the **order quantity**. See if you can use that to break the encryption and find the hidden code.
+        <br><br>
+        **Tip:** The **decrypted reference number** containing the word **BAR** is the flag.
+    </p>
+    <h3>Hint:</h3>
+    <p>
+        Consider looking up what a Caesar Cipher is online if you don't know. Also, keep in mind that each reference number is encrypted with a different offset based on the order quantity.
+    </p>
+    <h3>How to Solve:</h3>
+    <p>
+    <table>
+        <colgroup>
+            <col width="30%" />
+            <col width="70%" />
+        </colgroup>
+        <thead>
+          <tr class="header">
+                <th>Encrypted</th>
+                <th>Decrypted</th>
+                <th>Shift</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">UCFFNG</td>
+                <td markdown="span">TFBUQPTU</td>
+                <td markdown="span">GVERO</td>
+                <td markdown="span">CNKKR</td>
+                <td markdown="span">GFWXYJR</td>
+                <td markdown="span">FKDLQ</td>
+            </tr>
+            <tr>
+                <td markdown="span">SADDLE</td>
+                <td markdown="span">SEATPOST</td>
+                <td markdown="span">CRANK</td>
+                <td markdown="span">WHEEL</td>
+                <td markdown="span">BARSTEM</td>
+                <td markdown="span">CHAIN</td>
+            </tr>
+            <tr>
+                <td markdown="span">24</td>
+                <td markdown="span">2</td>
+                <td markdown="span">4</td>
+                <td markdown="span">6</td>
+                <td markdown="span">5</td>
+                <td markdown="span">3</td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
+    <h3>Answer:</h3>
+    <p>- BARSTEM</p>
+ </div>
