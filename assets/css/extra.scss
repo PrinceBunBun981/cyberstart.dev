@@ -1,14 +1,14 @@
-.i-container--medium {
+.l-container--medium {
     max-width: 600px
 }
 
-.i-container {
+.l-container {
     display: flex;
     margin: 0 auto;
 }
 
 @media only screen and (min-width: 960px) {
-    .i-container {
+    .l-container {
        flex-direction: row;
     }
 }
