@@ -86,3 +86,11 @@ html {
 .l-container--col{
     flex-direction:column
 }
+
+.error-container {
+  background-color: #fff;
+  color: #222;
+  border-radius: 12px;
+  padding: 42px;
+  text-align: center;
+}
