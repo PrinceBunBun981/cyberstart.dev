@@ -1,0 +1,22 @@
+.i-container--medium {
+    max-width: 600px
+}
+
+.i-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 960px) {
+    .i-container {
+       flex-direction: row;
+    }
+}
+
+.error-container {
+    background-color: #fff;
+    color: #222;
+    border-radius: 12px;
+    padding: 42px;
+    text-align: center;
+}
