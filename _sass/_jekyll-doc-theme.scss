@@ -87,7 +87,7 @@ html {
     flex-direction:column
 }
 
-.error-container {
+.error-container{
   background-color: #fff;
   color: #222;
   border-radius: 12px;
@@ -95,6 +95,14 @@ html {
   text-align: center;
 }
 
-.error-container__body {
+.error-container--title{
+  color: #375a7f;
+}
+
+.error-container--body{
   padding: 5px;
+}
+
+.error-container--footer{
+  color: #777;
 }
