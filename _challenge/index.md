@@ -1,6 +1,6 @@
 ---
 title: Welcome
-permalink: /challenge/home/
+permalink: /challenge/home
 redirect_from: /challenge/index.html
 ---
 
