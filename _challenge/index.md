@@ -13,7 +13,12 @@ If there is no walkthrough, feel free to make a [Pull Request](https://github.co
 
 ## Writing content
 
-### Challenges
+### For Preexisting Challenges
+
+At the bottom of each challenge page is a button saying `Improve this page`, this will allow you to fork this repository, edit any pages needed, and submit a Pull Request with updated information.
+
+
+### For New Challenges
 
 Challenges are [collections](https://jekyllrb.com/docs/collections/) of pages stored under the `_challenge` folder. To create a new page:
 
@@ -35,3 +40,5 @@ Hello World!
   challenges:
   - my-page
 ```
+
+Check the `_challenge` directory for examples on how pages should look and the `challenges.yml` file for examples on how to handle sorting pages in the navigation.
