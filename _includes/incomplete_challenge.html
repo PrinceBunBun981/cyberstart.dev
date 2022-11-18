@@ -1,4 +1,14 @@
-<div class="l-container l-container--col l-container--medium">
+<div class="l-container l-container--col l-container--medium" id="incomplete-challenge-container">
+   <script type="text/javascript">
+      function show_content(id) {
+          var e = document.getElementById(id);
+          e.style.display = 'block';
+      }
+      function hide_content(id) {
+      		var e = document.getElementById(id);
+          e.style.display = 'none';
+      }
+   </script>
    <div class="error-container">
       <div class="error-container--title">
          <h1>Incomplete Challenge</h1>
@@ -9,8 +19,8 @@
          <p>If you know the steps to solve this challenge and would like to contribute, create a <a title="Create a Pull Request" href="https://github.com/PrinceBunBun981/cyberstart.dev/pulls">Pull Request</a> or an <a title="Create an Issue" href="https://github.com/PrinceBunBun981/cyberstart.dev/issues">Issue</a> with walkthrough steps.</p>
       </div>
       <div class="error-container--footer">
-         <a href="/challenge/home" id="challenge-home-link">
-         Back to Challenge Welcome
+         <a onclick="show_content('walkthrough-content'); hide_content('incomplete-challenge-container');" id="challenge-home-link">
+         Show Incomplete Walkthrough
          </a>
       </div>
    </div>
