@@ -247,55 +247,56 @@ body {
 }
 
 .has-spoiler {
-  margin: 1.2em 0.8em;
-  letter-spacing: 0.01em;
+  margin: 0em 0.8em;
+  letter-spacing: 0.01em
 }
 
 .spoiler-span {
-  position: relative;
+  position: relative
 }
 
 details {
   display: inline !important;
   line-height: 1.1em;
-  color: #33bbaa;
+  color: #fff
 }
 
 summary {
   display: list-item;
   list-style-type: none;
   color: #990044;
-  font-size: 0.78em;
-  letter-spacing: 0.1em;
+  font-size: 0.85em;
+  letter-spacing: 0.1em
 }
 
 summary:before {
-  content: "[SHOW SPOILER]";
+  content: "[SHOW SPOILER]"
 }
 
 summary::-webkit-details-marker {
   background: none;
-  color: transparent;
+  color: transparent
 }
 
 summary:hover {
   color: #cc4477;
-  cursor: pointer;
+  cursor: pointer
 }
 
 details[open] summary {
   position: absolute;
-  top: 1.5em;
-  left: 0;
-  // font-size: 0.6em;
+  bottom: 0;
+  margin: -1.5em -0em;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
 }
 
 details[open] summary:before {
-  content: "[HIDE]";
+  content: "[HIDE]"
 }
 
 :focus {
   border: 1px solid transparent;
   outline: none !important;
-  -moz-appearance: none !important;
+  -moz-appearance: none !important
 }
