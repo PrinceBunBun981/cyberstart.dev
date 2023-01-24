@@ -264,7 +264,7 @@ details {
 summary {
   display: list-item;
   list-style-type: none;
-  color: #990044;
+  color: #375a9c;
   font-size: 0.85em;
   letter-spacing: 0.1em
 }
@@ -279,7 +279,7 @@ summary::-webkit-details-marker {
 }
 
 summary:hover {
-  color: #cc4477;
+  color: #0ce3ac;
   cursor: pointer
 }
 
@@ -288,7 +288,7 @@ details[open] summary {
   bottom: 0;
   margin: -1.5em -0em;
   font-size: 0.85em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1em
 }
 
 details[open] summary:before {
@@ -300,3 +300,4 @@ details[open] summary:before {
   outline: none !important;
   -moz-appearance: none !important
 }
+
