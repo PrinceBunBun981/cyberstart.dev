@@ -11,6 +11,8 @@ The site was made possible through [GitHub Pages](https://pages.github.com) alon
 While in CyberStart, the challenge links are typically `play.cyberstart.com/challenge/(id)`, simply change the `.com` to `.dev` and you should find the walkthrough you are looking for.
 If there is no walkthrough, feel free to make a [Pull Request](https://github.com/PrinceBunBun981/cyberstart.dev/pulls) with steps to complete the challenge, or an [Issue](https://github.com/PrinceBunBun981/cyberstart.dev/issues) requesting for a walkthrough.
 
+<hr>
+
 ## Writing content
 
 ### For Preexisting Challenges
@@ -22,12 +24,12 @@ At the bottom of each challenge page is a button saying `Improve this page`, thi
 
 Challenges are [collections](https://jekyllrb.com/docs/collections/) of pages stored under the `_challenge` folder. To create a new page:
 
-**1.** Create a new Markdown as `_challenge/level-name/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+**1.** Create a new Markdown as `_challenge/level-name/challenge-id.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
 
 ```
 ---
-title: My Page
-permalink: /challenge/my-page/
+title: Challenge Name
+permalink: /challenge/challenge-id/
 ---
 
 Hello World!
@@ -36,9 +38,11 @@ Hello World!
 **2.** Add the pagename to `_data/challenges.yml` file in order to list in challenges navigation panel:
 
 ```
-- title: My Group Title
+- title: Level Name
   challenges:
-  - my-page
+  - challenge-id
 ```
 
 Check the `_challenge` directory for examples on how pages should look and the `challenges.yml` file for examples on how to handle sorting pages in the navigation.
+
+*Changes to your PR may be requested or made in the event that you forget to do something, so no worries if you forget something!*

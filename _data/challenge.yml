@@ -1,6 +1,7 @@
 - title: Getting Started
   challenge:
   - home
+  - template
 - title: Intern
   challenge:
   - W0148
