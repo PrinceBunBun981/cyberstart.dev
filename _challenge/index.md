@@ -4,6 +4,8 @@ permalink: /challenge/home/
 redirect_from: /challenge/index.html
 ---
 
+## Getting started
+
 The site was made possible through [GitHub Pages](https://pages.github.com) along with the [Jekyll Doc Theme](https://github.com/aksakalli/jekyll-doc-theme).
 
 While in CyberStart, the challenge links are typically `play.cyberstart.com/challenge/(id)`, simply change the `.com` to `.dev` and you should find the walkthrough you are looking for.
@@ -13,12 +15,12 @@ If there is no walkthrough, feel free to make a [Pull Request](https://github.co
 
 ## Writing content
 
-### Preexisting Challenges
+### For Preexisting Challenges
 
 At the bottom of each challenge page is a button saying `Improve this page`, this will allow you to fork this repository, edit any pages needed, and submit a Pull Request with updated information.
 
 
-### New Challenges
+### For New Challenges
 
 Challenges are [collections](https://jekyllrb.com/docs/collections/) of pages stored under the `_challenge` folder. To create a new page:
 
@@ -45,9 +47,9 @@ Check the `_challenge` directory for examples on how pages should look and the `
 
 ### Adding Assets
 
-Assets can be added to challenge pages to show extra information or provide more help. Assets in PRs should be in the `assets` directory for the specific challenge level.
+Assets can be added to challenge pages to show extra information or provide more help. Assets in PRs should be in the specific level directory in the assets directory (`assets/img/level`).
 ```
-<img src="./assets/image.png" alt="Image Alt Text">
+<img src="../../assets/img/level/challenge-id.png" alt="Image Alt Text">
 ```
 
 *Changes to your PR may be requested or made in the event that you forget to do something, so no worries if you forget something!*
