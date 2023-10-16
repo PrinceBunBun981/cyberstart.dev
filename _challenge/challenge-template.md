@@ -1,4 +1,3 @@
-
 ---
 title: Challenge Template
 permalink: /challenge/template/
