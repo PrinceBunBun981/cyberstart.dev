@@ -10,6 +10,7 @@ title: Hello World
 permalink: /challenge/W0148/
 ---
 ```
+
 2. The first heading should be the challenge's briefing:
 ```
 ### Briefing: 
@@ -17,16 +18,19 @@ We've found a profile page of a known hacker that we need to get in contact with
 
 **Tip:** The email address is the flag. 
 ```
+
 3. The next heading should be the hint if one is available:
 ```
 ### Hint: 
 Try highlighting the whole page (i.e. select all) to find text that might be the same colour as the background. 
 ```
+
 4. The next should be how to solve the challenge:
 ```
 ### How to Solve: 
 1. Using CTRL + A will highlight the whole page revealing the email hidden underneath the “Send me an email” button. 
 ```
+
 5. The final heading should be the answer. This is only in cases where the answer to a challenge **never** changes:
 ```
 ### Answer: 
