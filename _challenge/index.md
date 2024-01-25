@@ -4,6 +4,14 @@ permalink: /challenge/home/
 redirect_from: /challenge/index.html
 ---
 
+# CyberStart Closure
+
+The CyberStart Team [announced](https://releases.cyberstart.com/release/63fqE-important-update-cyberstart-platform-closure)* on December 19th that the platform will be closing by the end of January 2024. 
+
+The website will stay online through GitHub Pages up until the domain's expiration on October 18th, 2025 (unless someone purchases the domain) and will receive no further updates.
+
+*If that link does not work, you can find a screenshot of the update [here](https://play.cyberstart.dev/assets/img/closure_update.png).
+
 ## Getting started
 
 The site was made possible through [GitHub Pages](https://pages.github.com) along with the [Jekyll Doc Theme](https://github.com/aksakalli/jekyll-doc-theme).
